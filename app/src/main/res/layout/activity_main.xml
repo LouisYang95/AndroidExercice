@@ -5,6 +5,7 @@
     android:id="@+id/flagImageView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#723FB590"
     tools:context=".MainActivity">
 
     <ImageView
@@ -55,10 +56,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Button"
+        android:text="Convertir"
         app:layout_constraintEnd_toEndOf="@+id/testViewDollar"
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="@+id/testViewDollar"
         app:layout_constraintTop_toBottomOf="@+id/testViewDollar" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="About"
+        app:layout_constraintEnd_toStartOf="@+id/submitButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
